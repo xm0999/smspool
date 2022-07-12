@@ -7,7 +7,7 @@ Unofficial API wrapper for [SMSPool.net](https://www.smspool.net/). With this wr
 - [SMSPool.net Documentation](https://github.com/xm0999/smspool/edit/main/README.md#smspoolnet-api-documentation)
 - [Getting Started](https://github.com/xm0999/smspool/blob/main/README.md#getting-started)
 - [Main Documentation](https://github.com/xm0999/smspool/blob/main/README.md#main-documentation)
-    - [client()](https://github.com/xm0999/smspool/blob/main/README.md#client)
+    - [smspool()](https://github.com/xm0999/smspool/blob/main/README.md#smspool)
     - [get_countries()](https://github.com/xm0999/smspool/blob/main/README.md#get_countries)
     - [get_services()](https://github.com/xm0999/smspool/blob/main/README.md#get_services)
     - [get_balance()](https://github.com/xm0999/smspool/blob/main/README.md#get_balance)
