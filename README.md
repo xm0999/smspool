@@ -33,7 +33,7 @@ Unofficial API wrapper for [SMSPool.net](https://www.smspool.net/). With this wr
 Checkout the official API documentation here [https://www.smspool.net/article/how-to-use-the-smspool-api](https://www.smspool.net/article/how-to-use-the-smspool-api#).
 <br>  
 ## Getting Started
-To get started you have to install the smspool npm package
+To get started you have to install the smspool python package
 ```
 pip install smspool
 ```
