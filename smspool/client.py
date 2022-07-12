@@ -97,7 +97,7 @@ class smspool():
         else:
             raise Exception(response.text)
 
-    def check_sms(self, order_id: int = None):
+    def check_sms(self, order_id: str = None):
         """
         Checks the status of the order
         """
@@ -108,7 +108,7 @@ class smspool():
         else:
             raise Exception(response.text)
 
-    def resend_sms(self, order_id: int = None):
+    def resend_sms(self, order_id: str = None):
         """
         Resends the SMS
         """
@@ -119,7 +119,7 @@ class smspool():
         else:
             raise Exception(response.text)
 
-    def cancel_sms(self, order_id: int = None):
+    def cancel_sms(self, order_id: str = None):
         """
         Cancels the SMS
         """
@@ -169,7 +169,7 @@ class smspool():
         else:
             raise Exception(response.text)
 
-    def get_rental_message(self, rental_code : int = None):
+    def get_rental_message(self, rental_code : str = None):
         """
         Returns the rental message
         """
@@ -180,7 +180,7 @@ class smspool():
         else:
             raise Exception(response.text)
 
-    def get_rental_status(self, rental_code: int = None):
+    def get_rental_status(self, rental_code: str = None):
         """
         Returns the rental status
         """
@@ -191,7 +191,7 @@ class smspool():
         else:
             raise Exception(response.text)
 
-    def refund_rental(self, rental_code: int = None):
+    def refund_rental(self, rental_code: str = None):
         """
         Refunds the rental
         """
@@ -202,7 +202,7 @@ class smspool():
         else:
             raise Exception(response.text)
 
-    def extend_rental(self, rental_code: int = None, days: int = 1):
+    def extend_rental(self, rental_code: str = None, days: int = 1):
         """
         Extends the rental
         """
